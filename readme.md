@@ -12,6 +12,12 @@ $ composer require artogrig/laravel-make-service
 
 ## Usage
 
+Example:
+
+``` bash
+$ php artisan make:service TestService
+```
+
 ## Change log
 
 Please see the [changelog](changelog.md) for more information on what has changed recently.
