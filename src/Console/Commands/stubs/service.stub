@@ -1,0 +1,11 @@
+<?php
+
+namespace DummyNamespace;
+
+use App\Interfaces\ServiceInterface;
+use App\Services\Handler\HandlerService;
+
+class DummyClass implements ServiceInterface
+{
+    //
+}

@@ -1,0 +1,40 @@
+{
+    "name": "artogrig/laravelmakeservice",
+    "description": "An Artisan console command to create service in your Laravel application.",
+    "license": "license",
+    "authors": [
+        {
+            "name": "Artavazd Grigoryan",
+            "email": "artogrig@gmail.com"
+        }
+    ],
+    "homepage": "https://github.com/artogrig/laravelmakeservice",
+    "keywords": ["Laravel", "LaravelMakeService", "artogrig", "command", "service", "make", "console"],
+    "require": {
+        "illuminate/support": "~5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0",
+        "orchestra/testbench": "~3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Artogrig\\LaravelMakeService\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Artogrig\\LaravelMakeService\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Artogrig\\LaravelMakeService\\LaravelMakeServiceServiceProvider"
+            ],
+            "aliases": {
+                "LaravelMakeService": "Artogrig\\LaravelMakeService\\Facades\\LaravelMakeService"
+            }
+        }
+    }
+}
