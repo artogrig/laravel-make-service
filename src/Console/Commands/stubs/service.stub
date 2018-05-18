@@ -2,9 +2,7 @@
 
 namespace DummyNamespace;
 
-Artogrig\LaravelMakeService\Interfaces\ServiceInterface;
-
-class DummyClass implements ServiceInterface
+class DummyClass
 {
     //
 }
