@@ -1,4 +1,4 @@
-# LaravelMakeService
+# Laravel Make Service
 
 An Artisan console command to create service in your Laravel application.
 
@@ -29,11 +29,6 @@ Please see [contributing.md](contributing.md) for details and a todolist.
 ## Security
 
 If you discover any security related issues, please email author email instead of using the issue tracker.
-
-## Credits
-
-- [author name][link-author]
-- [All Contributors][link-contributors]
 
 ## License
 
