@@ -5,7 +5,7 @@
  * All custom services should be implemented from this interface.
  */
 
-namespace App\Interfaces;
+namespace Artogrig\LaravelMakeService\Interfaces;
 
 interface ServiceInterface
 {

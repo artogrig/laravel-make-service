@@ -2,8 +2,7 @@
 
 namespace DummyNamespace;
 
-use App\Interfaces\ServiceInterface;
-use App\Services\Handler\HandlerService;
+Artogrig\LaravelMakeService\Interfaces\ServiceInterface;
 
 class DummyClass implements ServiceInterface
 {
